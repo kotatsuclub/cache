@@ -16,7 +16,7 @@ http {
         ssl_certificate /etc/ssl/nginx.crt;
         ssl_certificate_key /etc/ssl/private/nginx.key;
         ssl_dhparam /etc/nginx/dhparam.pem;
-        ssl_protocols TLSv1.3;
+        ssl_protocols TLSv1.2 TLSv1.3;
         ssl_prefer_server_ciphers on;
         ssl_ciphers EECDH+AESGCM:EDH+AESGCM;
         ssl_ecdh_curve secp384r1;
